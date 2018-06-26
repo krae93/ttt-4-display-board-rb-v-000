@@ -3,6 +3,7 @@
 def board
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+  board[0] = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
 end
 def display_board(board)
   puts "   |   |   "
